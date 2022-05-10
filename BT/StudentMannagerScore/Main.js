@@ -1,0 +1,12 @@
+"use strict";
+exports.__esModule = true;
+var ScoreList_1 = require("./ScoreList");
+var student1 = new ScoreList_1.ScoreList();
+student1.insertFirst("hong", 9);
+student1.insertFirst("hong2", 2);
+student1.insertFirst("hong3", 4);
+student1.insertFirst("hong4", 9);
+// console.log(student1.totalStudentsFail());
+// student1.insertLast("hong19",5);
+// console.log(student1.ShowList());
+console.log(student1.findByName("hong"));

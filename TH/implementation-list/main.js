@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var ArrayList_1 = require("./ArrayList");
+var arrayList = new ArrayList_1.ArrayList();
+arrayList.add({ title: "javaScript" });
+arrayList.add({ title: "php" });
+arrayList.add({ title: "c++" });
+console.log(arrayList.get(2));
+console.log(arrayList.size());
+arrayList.remove();
+console.log(arrayList.size());
